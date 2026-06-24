@@ -1,0 +1,48 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: blueviolet;
+}
+div{
+    font-size: 3rem;
+    background-color: aqua;
+    
+}
+div h3{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    div{
+        background-color: red;   
+    }
+    .mobile-text{
+        display: inline;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    div{
+        background-color: rgb(199, 229, 7);
+    }
+     .tablet-text{
+        display: inline;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    div{
+        background-color:cadetblue;
+    }
+     .desktop-text{
+        display: inline;
+    }
+}
+@media screen and (min-width:1025px) {
+    div{
+        background-color:black;
+        color: white;
+    }
+     .TV-text{
+        display: inline;
+    }
+}
