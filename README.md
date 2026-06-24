@@ -1,0 +1,1 @@
+This is a practice project built with HTML and CSS to gain a better understanding of and work more deeply with these two technologies. Of course, there are now more advanced, easier, and more standard methods for creating designs like this.
